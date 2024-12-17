@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos Travel - Your Gateway Through Time</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CHRONOS</div>
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#gallery">Time Gallery</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Travel Beyond Time</h1>
+            <p>Experience history firsthand. Visit the future before it happens.</p>
+            <a href="#booking" class="cta-button">Start Your Journey</a>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Glimpses Through Time</h2>
+            <div class="gallery-grid">
+                <img src="https://picsum.photos/400/300?random=1" alt="Historical Moment 1">
+                <img src="https://picsum.photos/400/300?random=2" alt="Historical Moment 2">
+                <img src="https://picsum.photos/400/300?random=3" alt="Historical Moment 3">
+                <img src="https://picsum.photos/400/300?random=4" alt="Historical Moment 4">
+                <img src="https://picsum.photos/400/300?random=5" alt="Historical Moment 5">
+                <img src="https://picsum.photos/400/300?random=6" alt="Historical Moment 6">
+            </div>
+        </section>
+
+        <section id="destinations" class="destinations">
+            <h2>Popular Time Destinations</h2>
+            <div class="time-periods">
+                <article class="period-card">
+                    <img src="https://picsum.photos/400/250?random=7" alt="Ancient Wonders">
+                    <h3>Ancient Wonders</h3>
+                    <p>Witness the construction of the Great Pyramids</p>
+                </article>
+                <article class="period-card">
+                    <img src="https://picsum.photos/400/250?random=8" alt="Renaissance Europe">
+                    <h3>Renaissance Europe</h3>
+                    <p>Meet the greatest minds of human history</p>
+                </article>
+                <article class="period-card">
+                    <img src="https://picsum.photos/400/250?random=9" alt="Future Earth">
+                    <h3>Future Earth 2250</h3>
+                    <p>Experience humanity's first interstellar colony</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="booking" class="booking">
+            <h2>Begin Your Time Journey</h2>
+            <div class="booking-container">
+                <form class="booking-form">
+                    <div class="form-group">
+                        <label for="name">Temporal Traveler Name</label>
+                        <input type="text" id="name" placeholder="As shown in your ID" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Contact Email</label>
+                        <input type="email" id="email" placeholder="For timeline synchronization updates" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="destination-era">Destination Era</label>
+                        <select id="destination-era" required>
+                            <option value="" disabled selected>Select your temporal destination</option>
+                            <option value="ancient">Ancient Civilizations (3000 BC - 500 BC)</option>
+                            <option value="medieval">Medieval Period (500 - 1500)</option>
+                            <option value="renaissance">Renaissance (1400 - 1600)</option>
+                            <option value="future">Near Future (2100 - 2300)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="duration">Journey Duration</label>
+                        <select id="duration" required>
+                            <option value="" disabled selected>Select duration</option>
+                            <option value="day">24 Hours</option>
+                            <option value="week">7 Days</option>
+                            <option value="month">30 Days</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preferences">Special Requirements</label>
+                        <textarea id="preferences" placeholder="Any specific historical events or future developments you'd like to witness?"></textarea>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input type="checkbox" id="waiver" required>
+                        <label for="waiver">I accept the Temporal Prime Directive and acknowledge the Butterfly Effect warning</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Initialize Time Jump</button>
+                </form>
+                
+                <div class="booking-info">
+                    <h3>Important Travel Information</h3>
+                    <ul>
+                        <li>All travelers must complete temporal safety training</li>
+                        <li>No artifacts may be brought back to the present</li>
+                        <li>Interaction with historical figures must be limited</li>
+                        <li>Emergency quantum recall device provided</li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Chronos Time Travel</h3>
+                <p>Temporal License #42-3141592</p>
+            </div>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#paradox">Paradox Waiver</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
